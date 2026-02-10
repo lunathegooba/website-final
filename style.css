@@ -42,4 +42,6 @@ float: left;
 
 .intro{
   margin-top: 80px;
+   font-size: 2rem;
+   justify-content: flex-end
 }
