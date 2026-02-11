@@ -37,7 +37,7 @@ float: left;
 }
 
 .navbar a:hover {
-    background-color: rgb(4, 9, 88);
+    background-color:#2d1c3e;
 }
 
 .intro{
@@ -48,13 +48,11 @@ float: left;
 }
 
 .Flex-container {
-    width: 80%;
-    padding: 90px; 
+    width: 60%;
+    padding: 40px; 
     border: 2px solid black;
-    margin: 20px; 
-        background-color: #f0f0f0;
-    display: flex;
-    justify-content: flex-end;
+    margin: 0px; 
+        background-color:#51326f;
     }
 
     * {
@@ -190,4 +188,8 @@ body {
   .right {
     left: 0%;
   }
+}
+.top-right-img {
+    float: right;
+    margin: 0 0 10px 10px; /* Optional: adds space around the image */
 }
