@@ -71,27 +71,41 @@ float:inline-start;
 /* Set a background color */
 body {
   font-family: Helvetica, sans-serif;
-  background-image: linear-gradient(#524163, #2d1c3e);
-}
+  background-image: radial-gradient(#000000, #003f00);
 
 * {
   box-sizing: border-box;
-}
+}}
 
 .brightText {
   color: white;
   font-family:Quicksand, sans-serif;
   font-size:1.1em;
-  text-shadow: 0px 0px 30px #cea1fa;
+  text-shadow: 0px 0px 30px  #00ff00;
 }
 
 table {
-  width: 100%; /* Makes the table span the full width */
+  width: 99%; /* Makes the table span the full width */
   border-collapse: collapse; /* Merges adjacent borders into a single one */
+  margin: 20px 0; /* Adds space above and below the table */
+  font-size:25px;
 }
 
 th, td {
-  border: 1px solid #ddd; /* Adds a light grey border to cells and headers */
+  border: 1px solid #39fc6adc; /* Adds a light grey border to cells and headers */
   padding: 8px; /* Adds space between content and border */
-  text-align: center; /* Aligns text to the left */
+  text-align: left; /* Aligns text to the left */
+}
+
+.Table {
+  border-radius:20px;
+  box-shadow: #39fc6adc 0px 0px 30px;;
+}
+
+.rightImages {
+  width: 300px;
+  height: auto;
+  margin-left: 20px;
+  box-shadow:#39fc6adc 0px 0px 20px;
+  border-radius:20px;
 }
