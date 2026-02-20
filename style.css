@@ -19,13 +19,13 @@ h1 {
     margin-left: 100px;
     margin-right:100px;
     overflow:hidden;
-    background-image:linear-gradient(90deg, #7b70869a, #634a7e00);
+    background-image:linear-gradient(90deg, #7b70869a, #1a4d0500);
     border-radius:20px;
 margin-top: 80px;
 margin-bottom:80px;
 }
 a :hover {
-    background-color: #2d1c3e;
+    background-color: #1c3e1c;
 }
 
 
@@ -46,12 +46,12 @@ float:inline-start;
 }
 
 .navbar a:hover {
-    background-color:#2d1c3e;
+    background-color:#1c3e1e;
 }
 
-.intro{
+#intro{
 
-  margin-top: 80px;
+  margin-top: 60px;
    font-size: 2rem;
  justify-content: flex-end;
 }
@@ -59,9 +59,10 @@ float:inline-start;
 .Flex-container {
     width: 60%;
     padding: 40px; 
-    border: 2px solid black;
+    border: 10px solid black;
     margin: 0px; 
-        background-color:#51326f;
+    margin-left: 250px;
+        background-color:#043205;
     }
 
     * {
@@ -108,4 +109,59 @@ th, td {
   margin-left: 20px;
   box-shadow:#39fc6adc 0px 0px 20px;
   border-radius:20px;
+}
+h1{
+  color:white
+}
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+.Form-box
+{  
+   position:relative;
+  top: 20%;
+  left: 20%;
+  transform: translate(50%, 0%);
+  background: #093709; /* White background for the box */
+    padding: 20px; /* Space inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    width: 100%;
+    box-shadow:#39fc6adc 0px 0px 150px;
+    max-width: 400px; /* Max width for larger screens */
+    border: 1px solid #000000; /* A border can also help define the box */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #086b1b; /* Blue button */
+    color: white;
+    border:#000000;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    font-size: 20px;
+}
+.container {
+  display: flex;
+  justify-content:space-between; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 250px;           /* Set a height for the container */
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin-top: 50px;
+}
+.containerr {
+  display: flex;
+  justify-content:center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 250px;           /* Set a height for the container */
+  border: 1px solid rgba(0, 0, 0, 0);
+ 
 }
